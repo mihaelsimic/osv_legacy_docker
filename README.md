@@ -8,7 +8,7 @@ Providing this solution as the legacy product is still used very often by Tricen
 
 ## Instructions
 - Download the dockerfile and put it somewhere on your local drive.
-- Build your first image by running following command: Docker build C:\OSV -t osv:latest
+- Build your first image by running following command: Docker build C:\OSV -t osv:latest \
 C:\OSV is the base path to the dockerfile and -t is to provide name and tag for the image in the same name:tag format.
 - Now run your docker image and map the ports between host and container:
  "docker run -v C:\OSV:C:\shareddata -v C:\OSV\Config:'C:\Program Files (x86)\Tricentis\Tosca OSV\Config' -p 10080:10080 -p 18080:18080 -p 54345:54345 -it osv"
