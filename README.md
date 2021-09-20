@@ -3,8 +3,8 @@ This repository provides a dockerfile which shows how to run Tricentis OSV legac
 Providing this solution as the legacy product is still used very often by Tricentis customers and not officially deprecated.
 
 ## Download
-Tricentis OSV download Link: https://support.tricentis.com/community/downloads.do
-Docker download link: https://docs.docker.com/desktop/
+- Tricentis OSV download Link: https://support.tricentis.com/community/downloads.do
+- Docker download link: https://docs.docker.com/desktop/
 
 ## Instructions
 - Download the dockerfile and put it somewhere on your local drive.
